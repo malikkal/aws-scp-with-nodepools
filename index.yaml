@@ -9,6 +9,23 @@ entries:
         bootstrap-k0sproject-k0smotron
     apiVersion: v2
     appVersion: v1.32.6+k0s.0
+    created: "2025-07-06T01:41:33.290457556+08:00"
+    description: A KCM template to deploy a k0s cluster on AWS with multiple node
+      pools.
+    digest: b9ab0b155c3408559069a21161dba453290eb897471ac7549bb748f88430843e
+    name: aws-scp-with-nodepools
+    type: application
+    urls:
+    - https://malikkal.github.io/aws-scp-with-nodepools/aws-scp-with-nodepools-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-aws: v1beta2
+      cluster.x-k8s.io/provider: infrastructure-aws, control-plane-k0sproject-k0smotron,
+        bootstrap-k0sproject-k0smotron
+    apiVersion: v2
+    appVersion: v1.32.6+k0s.0
     created: "2025-07-06T01:02:30.201765687+08:00"
     description: 'A KCM template to deploy a k0s cluster on AWS with bootstrapped
       control plane nodes. '
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://malikkal.github.io/aws-scp-with-nodepools/aws-scp-with-nodepools-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-06T01:02:30.198873969+08:00"
+generated: "2025-07-06T01:41:33.290136388+08:00"
